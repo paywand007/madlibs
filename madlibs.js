@@ -119,20 +119,6 @@ function madLibsPreview(story) {
         } else {
             madLibsPreview.innerHTML = madLibsPreview.innerHTML + ' ' + story[i].word
         }
-        //     if (story[i].pos) {
-        //         madLibsPreview.innerHTML =
-        //             madLibsPreview.innerHTML +
-        //             ' ' +
-        //             '<span   id="output' +
-        //             i +
-        //             '  ' +
-        //             story[i].pos +
-        //             +'</span>';
-        //         (' ')
-        //     } else {
-        //         madLibsPreview.innerHTML = madLibsPreview.innerHTML + ' ' + story[i].word
-        //     }
-        // }
     }
 }
 
